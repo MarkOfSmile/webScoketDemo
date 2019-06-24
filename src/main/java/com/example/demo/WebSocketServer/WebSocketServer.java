@@ -42,7 +42,7 @@ public class WebSocketServer {
         System.out.println("有新连接加入！当前在线人数为" + getOnlineCount());
         try {
             //sendMessage(CommonConstant.CURRENT_WANGING_NUMBER.toString());
-            sendMessage("22222222");
+            sendMessage("hello I am webScoket Client in demo 2");
         } catch (IOException e) {
             System.out.println("IO异常");
         }
