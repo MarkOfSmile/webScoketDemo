@@ -26,6 +26,7 @@ public class TestController {
         System.out.println("cookies is : " + JSONObject.toJSON(cookies));
         JSONObject json = new JSONObject();
         json.put("success", "session test .");
+        System.out.println("123");
         return json;
     }
 }
